@@ -13,7 +13,7 @@ const registerCommands = async (client) => {
                 client.slashCommands.set(command.data.name, command);
                 console.log(`Loaded ${command.data.name} Command`);
             } catch (error) {
-                console.error(`Error loading command from ${folderPath}/${file}: ${error}`);
+                console.error(`Error loading command from ${folder}/${file}: ${error}`);
             }
         }
     }
