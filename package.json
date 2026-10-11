@@ -13,5 +13,8 @@
   "dependencies": {
     "discord.js": "^14.13.0",
     "mongoose": "^7.6.0"
+  },
+  "overrides": {
+    "undici": "6.28.1"
   }
 }
